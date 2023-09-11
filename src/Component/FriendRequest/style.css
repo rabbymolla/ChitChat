@@ -1,0 +1,40 @@
+.friend_content {
+  margin-top: 17px;
+  overflow-y: auto;
+  height: 360px;
+}
+.friend_text {
+  width: 40%;
+}
+.friend_button {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.friend_button_area {
+  font-family: var(--poppins) !important;
+  font-weight: var(--semiBold) !important;
+  font-size: 20px !important;
+  color: var(--white_Color) !important;
+  padding: 0px 5px !important;
+  background-color: var(--main_Color) !important;
+  text-transform: capitalize !important;
+  margin-right: 5px !important;
+}
+.friend_button_area:nth-child(2) {
+  margin-right: 0px !important;
+  background-color: var(--error_Color) !important;
+}
+.friend_text h1 {
+  font-family: var(--poppins);
+  font-weight: var(--semiBold);
+  font-size: 18px;
+  color: var(--black_Color);
+  padding-bottom: 10px;
+}
+.friend_text p {
+  font-family: var(--poppins);
+  font-weight: var(--meduim);
+  font-size: 14px;
+  color: rgba(77, 77, 77, 0.75);
+}

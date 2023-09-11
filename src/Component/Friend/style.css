@@ -1,0 +1,15 @@
+.friend_list_button {
+  display: flex;
+  text-align: center;
+}
+.friend_list_button p {
+  font-family: var(--poppins);
+  font-weight: var(--meduim);
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.friend_list_content {
+  margin-top: 17px;
+  overflow-y: auto;
+  height: 367px;
+}

@@ -1,0 +1,53 @@
+.magrp_items {
+  height: 350px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 20px;
+}
+.masgrp_content {
+  margin-top: 17px;
+  overflow-y: auto;
+  height: 280px;
+}
+.masgrp_button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.masgrp_text {
+  width: 60%;
+}
+.masgrp_text {
+  width: 60%;
+}
+.masgrp_img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.masgrp_text span {
+  font-family: var(--poppins);
+  font-weight: var(--meduim);
+  font-size: 14px;
+  color: rgba(77, 77, 77, 0.75);
+}
+.masgrp_text h1 {
+  font-family: var(--poppins);
+  font-weight: var(--semiBold);
+  font-size: 18px;
+  color: var(--black_Color);
+  padding-top: 7px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.masgrp_text p {
+  font-family: var(--poppins);
+  font-weight: var(--meduim);
+  font-size: 14px;
+  color: rgba(77, 77, 77, 0.75);
+}

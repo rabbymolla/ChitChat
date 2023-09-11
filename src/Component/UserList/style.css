@@ -1,0 +1,24 @@
+.user_search_box {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 3px 20px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  width: 300px;
+}
+.user_search_box .seacrh_input {
+  margin-left: 15px;
+}
+.user_search_box .seacrh_input input {
+  height: 20px;
+  font-size: 13px;
+}
+.user_list_content {
+  margin-top: 17px;
+  overflow-y: auto;
+  height: 357px;
+}

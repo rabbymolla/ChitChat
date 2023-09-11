@@ -1,0 +1,36 @@
+.main_search_box {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+}
+.seacrh_input {
+  margin-left: 36px;
+}
+.seacrh_input {
+  width: 95%;
+}
+.seacrh_input input {
+  outline: none;
+  border: none;
+  height: 24px;
+  width: 100%;
+  font-family: var(--poppins);
+  font-weight: var(--meduim);
+  font-size: 16px;
+  color: var(--black_Color);
+}
+.seacrh_input input::placeholder {
+  font-size: 16px;
+  font-family: var(--poppins);
+  font-weight: var(--meduim);
+  color: rgba(61, 61, 61, 0.3);
+}
+.seacrh_icon svg {
+  width: 19px;
+  height: 19px;
+  fill: var(--main_Color);
+  cursor: pointer;
+}

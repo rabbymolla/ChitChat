@@ -1,0 +1,65 @@
+.input_hadding {
+  margin-bottom: 40px;
+}
+.input_hadding h1 {
+  font-family: var(--nunito);
+  font-weight: var(--bold);
+  color: var(--tittle_Color);
+  text-transform: capitalize;
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+.input_hadding p {
+  font-family: var(--nunito);
+  font-weight: var(--normal);
+  color: var(--black_Color);
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.input_textField {
+  width: 368px;
+}
+.gap {
+  margin-top: 35px;
+}
+.input_button {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.signUp {
+  font-family: var(--nunito) !important;
+  font-weight: var(--semiBold) !important;
+  color: var(--white_Color) !important;
+  text-transform: capitalize !important;
+  font-size: 20px !important;
+  background-color: var(--main_Color) !important;
+  width: 368px !important;
+  padding: 19px 0 !important;
+  border-radius: 86px !important;
+  -webkit-border-radius: 86px !important;
+  -moz-border-radius: 86px !important;
+  -ms-border-radius: 86px !important;
+  -o-border-radius: 86px !important;
+}
+.input_end {
+  width: 368px;
+  text-align: center;
+}
+.input_end span {
+  font-family: var(--openSans);
+  font-weight: var(--nunito);
+  font-size: 13px;
+  color: var(--common_Color);
+  text-transform: capitalize;
+}
+.input_end .input_link {
+  font-family: var(--openSans);
+  font-weight: var(--nunito);
+  font-size: 13px;
+  color: var(--orange_Color);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.input_img img {
+  width: 100%;
+}

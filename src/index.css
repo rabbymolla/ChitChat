@@ -1,0 +1,100 @@
+/* common css part start */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+body {
+  background-color: var(--body_Color);
+}
+:root {
+  --main_Color: #5f35f5;
+  --body_Color: #fcfcfc;
+  --tittle_Color: #11175d;
+  --black_Color: #000000;
+  --white_Color: #ffffff;
+  --common_Color: #03014c;
+  --orange_Color: #ea6c00;
+  --error_Color: #ee4b2b;
+  --online_Color: #00ff75;
+  --massage_Color: #f1f1f1;
+  --nunito: "Nunito", sans-serif;
+  --openSans: "Open Sans", sans-serif;
+  --poppins: "Poppins", sans-serif;
+  --bold: 700;
+  --semiBold: 600;
+  --meduim: 500;
+  --normal: 400;
+}
+#margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.spacing_left {
+  padding-left: 35px !important;
+}
+/* common css part end */
+/* sign up css part start */
+.main {
+  align-items: center !important;
+  height: 100vh;
+}
+.input_eye {
+  color: var(--tittle_Color);
+  font-size: 24px;
+  cursor: pointer;
+}
+.input_field {
+  position: relative;
+}
+.error {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-family: var(--nunito);
+  font-weight: var(--bold);
+  text-transform: capitalize;
+  color: var(--error_Color);
+  font-size: 15px;
+}
+.home_gap {
+  margin-top: 10px;
+}
+.blocked {
+  color: var(--error_Color);
+  font-size: 20px;
+  font-weight: var(--bold);
+  font-family: var(--openSans);
+}
+.group_fild {
+  margin: 30px 0 !important;
+}
+.errortwo {
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+  font-family: var(--nunito);
+  font-weight: var(--bold);
+  text-transform: capitalize;
+  color: var(--error_Color);
+  font-size: 15px;
+}
+
+/* sign up css part end */
