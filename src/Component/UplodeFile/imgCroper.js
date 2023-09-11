@@ -16,7 +16,6 @@ const ImgCroper = ({
 }) => {
   return (
     <>
-      {/* this is test */}
       <div className="croper_box">
         <div className="croper_title">
           <div className="croper_icon" onClick={() => setImage()}>
